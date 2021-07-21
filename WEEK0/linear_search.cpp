@@ -2,7 +2,7 @@
 using namespace std;
 bool linearSearch(int arr[],int n,int k)
 {
-    for(int low=0,high=n-1;low<=n/2-1;low++,high--)
+    for(int low=0,high=n-1;low<=n/2+1;low++,high--)
     {
         if(arr[low]==k)
             return true;
